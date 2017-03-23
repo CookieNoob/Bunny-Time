@@ -1,0 +1,16 @@
+name = "Bunny Time"
+uid = "bunnies0-and0-eggs0-0000-version00001"
+version = 1
+copyright = "CookieNoob and Dudekahedron"
+description = "Bunny Time! The mod transforms some of the rocks and trees into easter eggs. The size of the eggs depends on the amount of reclaim in it. Maps with fewer trees/rocks will convert a higher fraction to eggs. Be aware that creating the new props takes a short moment. During that time the game will freeze."
+author = "CookieNoob (script) and Dudekahedron (models)"
+icon = "/mods/Bunny_Time/EasterIcon.png"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { }
+requiresNames = { }
+conflicts = { }
+before = { }
+after = { }
