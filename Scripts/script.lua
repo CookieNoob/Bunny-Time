@@ -56,7 +56,7 @@ function Create_Easter_Eggs()
     for _, present in ListOfProps or {} do
         local EggType = math.ceil(math.random(table.getn(new_props)))
         local NewEgg = CreateProp( VECTOR3(present:GetPosition()['x'],
-                            present:GetPosition()['y'],
+                            present:GetPosition()['y'] - 0.1,
                             present:GetPosition()['z'] ),
                             new_props[EggType])
         
